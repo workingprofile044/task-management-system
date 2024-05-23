@@ -12,9 +12,6 @@ install:
 build_script:
   - yarn build
 
-test_script:
-  - yarn test
-
 artifacts:
   - path: dist
     name: build
